@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuador - Contatti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white d-flex flex-column min-vh-100">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="index.html">ECUADOR.</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Scopri il Paese</a></li>
+                    <li class="nav-item"><a class="nav-link" href="citta.html">Le Città</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <main class="container my-5 py-4 flex-grow-1 d-flex align-items-center">
+        <div class="row g-5 w-100 justify-content-between align-items-center">
+            <div class="col-lg-5">
+                <h2 class="display-5 fw-bold font-serif text-warning mb-4">Note dello Studente</h2>
+                <p class="text-white-50">Questo portale rappresenta l'elaborato finale per il modulo di sviluppo Web e Geografia Computazionale.</p>
+                <div class="mt-4 p-4 rounded-4 bg-dark-deep border border-secondary shadow">
+                    <h5 class="fw-bold mb-3 text-white"><i class="fa-solid fa-code me-2 text-warning"></i>riverafuentes.diego@itismeucci.com</h5>
+                    <p class="mb-2 small text-white-50"><strong>Autore:</strong>Diego Rivera</p>
+                    <p class="mb-2 small text-white-50"><strong>Classe:</strong>3 AIA</p>
+                    <p class="mb-0 small text-white-50"><strong>Tecnologie utilizzate:</strong> HTML, CSS, Bootstrap</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-4 bg-dark-deep rounded-4 border border-secondary shadow-lg">
+                    <h4 class="fw-bold font-serif text-white mb-3">Richiedi Materiale Didattico</h4>
+                    <form onsubmit="event.preventDefault(); alert('Richiesta registrata!');">
+                        <div class="mb-3">
+                            <label class="form-label small text-white-50 fw-bold">Nome Completo</label>
+                            <input type="text" class="form-control bg-dark text-white border-secondary" required placeholder="Mario Rossi">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small text-white-50 fw-bold">Email Scolastica</label>
+                            <input type="email" class="form-control bg-dark text-white border-secondary" required placeholder="mario@scuola.it">
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold text-dark py-2 rounded-3 mt-2">Invia Richiesta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer class="py-4 border-top border-secondary bg-dark-deep text-white-50 mt-auto">
+        <div class="container text-center text-md-start d-md-flex align-items-center justify-content-between">
+            <p class="mb-0 small">&copy; 2026 Progetto Geografico Ecuador. Diego rivera.</p>
+            <p class="mb-0 small"></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
